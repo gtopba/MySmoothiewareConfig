@@ -187,21 +187,21 @@ switch.fan.output_type                       pwm              # PWM output setta
 
 # Switch modules for single block
 switch.singleblock.enable                    true
-switch.singleblock.input_pin                 0.24
+switch.singleblock.input_pin                 0.24!^
 switch.singleblock.input_pin_behavior        momentary
 switch.singleblock.output_on_command         singleblock
 switch.singleblock.output_off_command        singleblock_-q
 switch.singleblock.startup_state             false
-#switch.singleblock.failsafe_set_to           true
-#switch.singleblock.ignore_on_halt            false
+#switch.singleblock.failsafe_set_to          true
+#switch.singleblock.ignore_on_halt           false
 
-switch.resume.enable                    true
-switch.resume.input_pin                 0.25
-switch.resume.input_pin_behavior        momentary
-switch.resume.output_on_command         resume
-switch.resume.startup_state             false
-#switch.resume.failsafe_set_to           false
-#switch.resume.ignore_on_halt            false
+switch.resume.enable                         true
+switch.resume.input_pin                      0.25!^
+switch.resume.input_pin_behavior             momentary
+switch.resume.output_on_command              resume
+switch.resume.startup_state                  false
+#switch.resume.failsafe_set_to               false
+#switch.resume.ignore_on_halt                false
 
 ## Temperatureswitch
 # See http://smoothieware.org/temperatureswitch
