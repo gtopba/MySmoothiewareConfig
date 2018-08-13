@@ -203,6 +203,14 @@ switch.resume.startup_state                  false
 #switch.resume.failsafe_set_to               false
 #switch.resume.ignore_on_halt                false
 
+switch.feedhold.enable                         true
+switch.feedhold.input_pin                      0.23!^
+switch.feedhold.input_pin_behavior             momentary
+switch.feedhold.output_on_command              !
+switch.feedhold.startup_state                  false
+#switch.feedhold.failsafe_set_to               false
+#switch.feedhold.ignore_on_halt                false
+
 ## Temperatureswitch
 # See http://smoothieware.org/temperatureswitch
 # Automatically toggle a switch at a specified temperature. Different ones of these may be defined to monitor different temperatures and switch different swithxes
