@@ -196,7 +196,7 @@ switch.singleblock.startup_state             false
 #switch.singleblock.ignore_on_halt           false
 
 switch.resume.enable                         true
-switch.resume.input_pin                      0.25!^
+switch.resume.input_pin                      1.22!^
 switch.resume.input_pin_behavior             momentary
 switch.resume.output_on_command              resume
 switch.resume.startup_state                  false
@@ -204,7 +204,7 @@ switch.resume.startup_state                  false
 #switch.resume.ignore_on_halt                false
 
 switch.feedhold.enable                         true
-switch.feedhold.input_pin                      0.23!^
+switch.feedhold.input_pin                      0.25!^
 switch.feedhold.input_pin_behavior             momentary
 switch.feedhold.output_on_command              !
 switch.feedhold.startup_state                  false
