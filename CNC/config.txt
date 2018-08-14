@@ -206,7 +206,7 @@ switch.resume.startup_state                  false
 switch.feedhold.enable                         true
 switch.feedhold.input_pin                      0.25!^
 switch.feedhold.input_pin_behavior             momentary
-switch.feedhold.output_on_command              !
+switch.feedhold.output_on_command              M0
 switch.feedhold.startup_state                  false
 #switch.feedhold.failsafe_set_to               false
 #switch.feedhold.ignore_on_halt                false
